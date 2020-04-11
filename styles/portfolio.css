@@ -2,7 +2,11 @@
         background-color: #c5c5c8;
         height: 100%;
     }
-    
+
+.bg {
+    background-color: #E9ECEF;
+}
+
     .menu-seperator {
         margin-left: 10px;
     }
@@ -15,6 +19,9 @@
         object-fit: cover;
         width: 250px;
         height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
     }
     
     .navbar-custom {
@@ -58,16 +65,31 @@
     .btn-width {
         width: 100%;
     }
-    
-    #sticky-footer {
-        flex-shrink: none;
-        bottom: 0;
-        position: absolute;
-        width: 100%;
-    }
-    
+
     .me {
         border-radius: 100%;
         width: 60px;
         height: 60px
     }
+
+    .timeline {
+        width: 350px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 75px;
+        margin-top: 40px;
+    }
+ul {
+    list-style-type: none;
+}
+
+.cv-height {
+    margin-bottom: -10px;
+
+}
+
+.blog-text {
+    margin-left: 15px;
+}
