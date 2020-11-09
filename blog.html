@@ -54,24 +54,23 @@
                     width: 100%; <br />
                     }
                 </code>
-                <p>I recently came across the problem that I needed a sticky navbar in an older version of simple browser. "position: fixed" is however not supported in older web browsers, this doesn't mean you can't use sticky navbars, in this blog post I am going to show you how I solved this issue.</p>
+                <p>I recently came across the problem that I needed a sticky navbar in an older version of simple browser. "position: fixed" is however not supported in older web browsers, this doesn't mean you can't use sticky navbars, in this blog post
+                    I am going to show you how I solved this issue.</p>
                 <p>
                     <title>About | Marcus Bader</title>
 
-                    First of all we have to define what a sticky navbar is. A sticky navbar is a navbar that always stays on top of the page while scrolling through the content.
-                    This means that that would be the same as a navbar on the top of the page statically with out ever moving and letting the content be scrollable.
-                    So lets take a look at this. Here is the code used:
+                    First of all we have to define what a sticky navbar is. A sticky navbar is a navbar that always stays on top of the page while scrolling through the content. This means that that would be the same as a navbar on the top of the page statically with out
+                    ever moving and letting the content be scrollable. So lets take a look at this. Here is the code used:
                 </p>
                 <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                     Check out the code
                 </a>
 
                 <p style="text-align: left">
-                    Let's take a look at this step by step. First of all we need to set "overflow: hidden" for the body tag. This hides the original scrollbar from the web browser. Then we create our navbar div and our content div, in that order
-                    important css for our navbar is "overflow: hidden", "height: x" and "top: 0". Lastly we can focus on our scrollable content. We are going to set "bottom: 0%" to make sure our content always covers the whole page. "overflow-y: scroll"
-                    gives us a new scrollbar in y-direction, you will notice how the scrollbar will start after the navbar and not cover the whole browser. Our height gets calculated with the css function "calc" we need to set our height to
-                    "calc(100%-x)", it's important that we subtract the same height from 100% as we set our navbar to. This is because we actually say that our content should cover the whole page except the height of our navbar. We will now
-                    set "position: absolute" and we are done.
+                    Let's take a look at this step by step. First of all we need to set "overflow: hidden" for the body tag. This hides the original scrollbar from the web browser. Then we create our navbar div and our content div, in that order important css for our navbar
+                    is "overflow: hidden", "height: x" and "top: 0". Lastly we can focus on our scrollable content. We are going to set "bottom: 0%" to make sure our content always covers the whole page. "overflow-y: scroll" gives us a new scrollbar in
+                    y-direction, you will notice how the scrollbar will start after the navbar and not cover the whole browser. Our height gets calculated with the css function "calc" we need to set our height to "calc(100%-x)", it's important that we
+                    subtract the same height from 100% as we set our navbar to. This is because we actually say that our content should cover the whole page except the height of our navbar. We will now set "position: absolute" and we are done.
                 </p>
                 <a href="sticky-navbar" target="_blank" class="btn btn-primary">Check out the result!</a>
                 <br />
@@ -178,7 +177,7 @@
             height: 500px;
             overflow: scroll;
         }
-
+        
         #navbar-sticky {
             overflow: hidden;
             background-color: darkslategray;
@@ -186,20 +185,20 @@
             height: 48px;
             width: 50%;
         }
-
-            #navbar-sticky a {
-                float: left;
-                display: block;
-                color: #fff;
-                text-align: center;
-                padding: 14px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-
-                #navbar-sticky a:hover {
-                    background-color: #ddd;
-                    color: black;
-                }
+        
+        #navbar-sticky a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        #navbar-sticky a:hover {
+            background-color: #ddd;
+            color: black;
+        }
     </style>
 </body>
