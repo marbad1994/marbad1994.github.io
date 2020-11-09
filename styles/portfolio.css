@@ -2,11 +2,11 @@
         background-color: #c5c5c8;
         height: 100%;
     }
-
-.bg {
-    background-color: #E9ECEF;
-}
-
+    
+    .bg {
+        background-color: #E9ECEF;
+    }
+    
     .menu-seperator {
         margin-left: 10px;
     }
@@ -18,6 +18,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .card-img-top {
+        margin-top: 20px;
+    }
+    
     .divider {
         background-color: #7a7a7a;
         height: 2px;
@@ -25,7 +30,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    
     .navbar-custom {
         background-color: #f7b045;
     }
@@ -67,31 +72,31 @@
     .btn-width {
         width: 100%;
     }
-
+    
     .me {
         border-radius: 100%;
         width: 60px;
         height: 60px
     }
-
+    
     .timeline {
         width: 350px;
     }
-
+    
     .footer {
         width: 100%;
         height: 75px;
         margin-top: 40px;
     }
-ul {
-    list-style-type: none;
-}
-
-.cv-height {
-    margin-bottom: -10px;
-
-}
-
-.blog-text {
-    margin-left: 15px;
-}
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .cv-height {
+        margin-bottom: -10px;
+    }
+    
+    .blog-text {
+        margin-left: 15px;
+    }
