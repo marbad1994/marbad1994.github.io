@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-US" class="scheme_original">
+<head>
+	<title>Tabell &#8211; DgEvents</title>
+	<link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+
+<style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#365769 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#365769 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#264452 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#264452 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#ffaa5f; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#ffaa5f; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#ffaa5f; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><meta name='robots' content='noindex,nofollow' />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="http://golfclub.themerex.net/xmlrpc.php" />
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico" /><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="N7 Golf Club &raquo; Feed" href="http://golfclub.themerex.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="N7 Golf Club &raquo; Comments Feed" href="http://golfclub.themerex.net/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="N7 Golf Club &raquo; iCal Feed" href="http://golfclub.themerex.net/events/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/golfclub.themerex.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='http://golfclub.themerex.net/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css?ver=4.12.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='http://golfclub.themerex.net/wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css?ver=4.12.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://golfclub.themerex.net/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://golfclub.themerex.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=2.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='http://golfclub.themerex.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-icons-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/css/icons.css?ver=2.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-theme-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-animations-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/css/animations.css?ver=2.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-styles-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/css/styles.css?ver=2.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-responsive-css'  href='http://golfclub.themerex.net/wp-content/plugins/booked/assets/css/responsive.css?ver=2.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='essential-grid-plugin-settings-css'  href='http://golfclub.themerex.net/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='tp-fontello-css'  href='http://golfclub.themerex.net/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://golfclub.themerex.net/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.4.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='trx_demo_icons-css'  href='http://golfclub.themerex.net/wp-content/plugins/trx_demo/css/font-icons/css/trx_demo_icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='trx_demo_icons_animation-css'  href='http://golfclub.themerex.net/wp-content/plugins/trx_demo/css/font-icons/css/animation.css' type='text/css' media='all' />
+<link rel='stylesheet' id='trx_demo_panels-css'  href='http://golfclub.themerex.net/wp-content/plugins/trx_demo/css/trx_demo_panels.css' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.3.4' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.3.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='n7-golf-club-font-google_fonts-style-css'  href='//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Martel:400,200,300,600,700,800,900|Crimson+Text:300,300italic,400,400italic,700,700italic&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-fontello-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/fontello/css/fontello.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-main-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-animation-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/css/core.animation.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-shortcodes-style-css'  href='http://golfclub.themerex.net/wp-content/plugins/trx_utils/shortcodes/theme.shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-plugin.booked-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/plugin.booked.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-plugin.instagram-widget-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/plugin.instagram-widget.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-plugin.tribe-events-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/plugin.tribe-events.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-full-mobile-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/tribe-events-full-mobile.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-plugin.woocommerce-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/plugin.woocommerce.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-skin-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/skins/no_less/skin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-custom-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/css/custom-style.css' type='text/css' media='all' />
+<style id='n7-golf-club-custom-style-inline-css' type='text/css'>
+body{font-family:Martel;font-size:14px;font-weight:600;line-height:1.714em}h1{font-family:Lato;font-size:2.857em;font-weight:700;}h2{font-family:Lato;font-size:2.143em;font-weight:700;}h3{font-family:Lato;font-size:1.571em;font-weight:700;}h4{font-family:Lato;font-size:1.429em;font-weight:700;}h5{font-family:Lato;font-size:1.000em;font-weight:900;}h6{font-family:Lato;font-size:0.929em;font-weight:900;}a,.scheme_dark a,.scheme_light a{;	color:#ffaa5f}a:hover,.scheme_dark a:hover,.scheme_light a:hover{color:#282828}.accent1{color:#ffaa5f}.accent1_bgc{background-color:#ffaa5f}.accent1_bg{background:#ffaa5f}.accent1_border{border-color:#ffaa5f}a.accent1:hover{color:#282828}.post_content.ih-item.circle.effect1.colored .info,.post_content.ih-item.circle.effect2.colored .info,.post_content.ih-item.circle.effect3.colored .info,.post_content.ih-item.circle.effect4.colored .info,.post_content.ih-item.circle.effect5.colored .info .info-back,.post_content.ih-item.circle.effect6.colored .info,.post_content.ih-item.circle.effect7.colored .info,.post_content.ih-item.circle.effect8.colored .info,.post_content.ih-item.circle.effect9.colored .info,.post_content.ih-item.circle.effect10.colored .info,.post_content.ih-item.circle.effect11.colored .info,.post_content.ih-item.circle.effect12.colored .info,.post_content.ih-item.circle.effect13.colored .info,.post_content.ih-item.circle.effect14.colored .info,.post_content.ih-item.circle.effect15.colored .info,.post_content.ih-item.circle.effect16.colored .info,.post_content.ih-item.circle.effect18.colored .info .info-back,.post_content.ih-item.circle.effect19.colored .info,.post_content.ih-item.circle.effect20.colored .info .info-back,.post_content.ih-item.square.effect1.colored .info,.post_content.ih-item.square.effect2.colored .info,.post_content.ih-item.square.effect3.colored .info,.post_content.ih-item.square.effect4.colored .mask1,.post_content.ih-item.square.effect4.colored .mask2,.post_content.ih-item.square.effect5.colored .info,.post_content.ih-item.square.effect6.colored .info,.post_content.ih-item.square.effect7.colored .info,.post_content.ih-item.square.effect8.colored .info,.post_content.ih-item.square.effect9.colored .info .info-back,.post_content.ih-item.square.effect10.colored .info,.post_content.ih-item.square.effect11.colored .info,.post_content.ih-item.square.effect12.colored .info,.post_content.ih-item.square.effect13.colored .info,.post_content.ih-item.square.effect14.colored .info,.post_content.ih-item.square.effect15.colored .info,.post_content.ih-item.circle.effect20.colored .info .info-back,.post_content.ih-item.square.effect_book.colored .info{background:#ffaa5f}.post_content.ih-item.circle.effect1.colored .info,.post_content.ih-item.circle.effect2.colored .info,.post_content.ih-item.circle.effect5.colored .info .info-back,.post_content.ih-item.circle.effect19.colored .info,.post_content.ih-item.square.effect4.colored .mask1,.post_content.ih-item.square.effect4.colored .mask2,.post_content.ih-item.square.effect6.colored .info,.post_content.ih-item.square.effect7.colored .info,.post_content.ih-item.square.effect12.colored .info,.post_content.ih-item.square.effect13.colored .info,.post_content.ih-item.square.effect_more.colored .info,.post_content.ih-item.square.effect_fade.colored:hover .info,.post_content.ih-item.square.effect_dir.colored .info,.post_content.ih-item.square.effect_shift.colored .info{/*background:rgba(40,40,40,0.6);*/}.post_content.ih-item.square.effect_fade.colored .info{background:-moz-linear-gradient(top,rgba(255,255,255,0) 70%,rgba(127,212,167,0.6) 100%);	background:-webkit-gradient(linear,left top,left bottom,color-stop(70%,rgba(255,255,255,0)),color-stop(100%,rgba(127,212,167,0.6)));	background:-webkit-linear-gradient(top,rgba(255,255,255,0) 70%,rgba(127,212,167,0.6) 100%);	background:-o-linear-gradient(top,rgba(255,255,255,0) 70%,rgba(127,212,167,0.6) 100%);	background:-ms-linear-gradient(top,rgba(255,255,255,0) 70%,rgba(127,212,167,0.6) 100%);	background:linear-gradient(to bottom,rgba(255,255,255,0) 70%,rgba(127,212,167,0.6) 100%)}.post_content.ih-item.circle.effect17.colored:hover .img:before{-webkit-box-shadow:inset 0 0 0 110px rgba(127,212,167,0.6),inset 0 0 0 16px rgba(255,255,255,0.8),0 1px 2px rgba(0,0,0,0.1);	-moz-box-shadow:inset 0 0 0 110px rgba(127,212,167,0.6),inset 0 0 0 16px rgba(255,255,255,0.8),0 1px 2px rgba(0,0,0,0.1);	box-shadow:inset 0 0 0 110px rgba(127,212,167,0.6),inset 0 0 0 16px rgba(255,255,255,0.8),0 1px 2px rgba(0,0,0,0.1)}.post_content.ih-item.circle.effect1 .spinner{border-right-color:#ffaa5f;	border-bottom-color:#ffaa5f}.post_content.ih-item .info .post_title a:hover{text-shadow:0px 1px 2px rgba(40,40,40,0.25)}.sc_table table tr:first-child{background-color:#282828}pre.code,#toc .toc_item.current,#toc .toc_item:hover{border-color:#ffaa5f}::selection,::-moz-selection{background-color:#ffaa5f}input[type="text"],input[type="number"],input[type="email"],input[type="tel"],input[type="search"],input[type="password"],select,textarea{font-family:Crimson Text;font-size:1.286em;font-weight:100;font-style:italic;	border-color:#282828}input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="tel"]:focus,input[type="search"]:focus,input[type="password"]:focus,select:focus,textarea:focus{border-color:#ffaa5f}.top_panel_inner_style_3 .top_panel_cart_button,.top_panel_inner_style_4 .top_panel_cart_button{background-color:rgba(127,212,167,0.2)}.top_panel_style_8 .top_panel_buttons .top_panel_cart_button:before{background-color:#ffaa5f}.top_panel_top a:hover{color:#282828}.top_panel_inner_style_3 .search_results .post_info a>span,.top_panel_inner_style_3 .search_results .post_info a[class*="icon-"]{color:red}.top_panel_inner_style_3 .search_results .post_info a[class*="icon-"]:hover{color:red}.menu_user_nav>li>a:hover{color:#282828}.top_panel_inner_style_3 .menu_user_nav>li>ul:after,.top_panel_inner_style_4 .menu_user_nav>li>ul:after,.top_panel_inner_style_5 .menu_user_nav>li>ul:after,.top_panel_inner_style_3 .menu_user_nav>li ul,.top_panel_inner_style_4 .menu_user_nav>li ul,.top_panel_inner_style_5 .menu_user_nav>li ul{background-color:#ffaa5f;	border-color:#282828}.top_panel_inner_style_3 .menu_user_nav>li ul li a:hover,.top_panel_inner_style_3 .menu_user_nav>li ul li.current-menu-item>a,.top_panel_inner_style_3 .menu_user_nav>li ul li.current-menu-ancestor>a,.top_panel_inner_style_4 .menu_user_nav>li ul li a:hover,.top_panel_inner_style_4 .menu_user_nav>li ul li.current-menu-item>a,.top_panel_inner_style_4 .menu_user_nav>li ul li.current-menu-ancestor>a,.top_panel_inner_style_5 .menu_user_nav>li ul li a:hover,.top_panel_inner_style_5 .menu_user_nav>li ul li.current-menu-item>a,.top_panel_inner_style_5 .menu_user_nav>li ul li.current-menu-ancestor>a{background-color:#282828}.top_panel_middle .logo{}.logo .logo_text{font-family:Lato;font-size:2em;font-weight:400}.top_panel_middle .menu_main_wrap{margin-top:calc(inherit*0.75)}.top_panel_style_5 .top_panel_middle .logo{margin-bottom:calc(inherit*0.5)}.top_panel_image_hover{background-color:rgba(40,40,40,0.8)}.menu_main_nav>li>a{padding:inherit 1.5em inherit;	font-family:Lato;font-size:0.857em;font-weight:b}.menu_main_nav>li>a:hover,.menu_main_nav>li.sfHover>a,.menu_main_nav>li#blob,.menu_main_nav>li.current-menu-item>a,.menu_main_nav>li.current-menu-parent>a,.menu_main_nav>li.current-menu-ancestor>a{color:#282828}.top_panel_inner_style_1 .menu_main_nav>li>a:hover{/*background-color:#282828;*/}.top_panel_inner_style_1 .menu_main_nav>a:hover,.top_panel_inner_style_1 .menu_main_nav>li.sfHover>a,.top_panel_inner_style_1 .menu_main_nav>li#blob,.top_panel_inner_style_1 .menu_main_nav>li.current-menu-item>a,.top_panel_inner_style_1 .menu_main_nav>li.current-menu-parent>a,.top_panel_inner_style_1 .menu_main_nav>li.current-menu-ancestor>a{/*background-color:#282828;*/}.menu_main_nav>li ul{font-family:Lato;font-size:12px}.menu_main_nav>li>ul{top:calc(inherit+inherit+inherit)}.menu_main_nav>li ul li a{padding:inherit 1.5em inherit}.menu_main_nav>li ul li a:hover,.menu_main_nav>li ul li.current-menu-item>a,.menu_main_nav>li ul li.current-menu-ancestor>a{color:#282828}.top_panel_inner_style_1 .menu_main_nav>li ul li a:hover,.top_panel_inner_style_1 .menu_main_nav>li ul li.current-menu-item>a,.top_panel_inner_style_1 .menu_main_nav>li ul li.current-menu-ancestor>a,.top_panel_inner_style_1 .menu_main_nav>li ul li a:hover span,.top_panel_inner_style_1 .menu_main_nav>li ul li.current-menu-item>a span,.top_panel_inner_style_1 .menu_main_nav>li ul li.current-menu-ancestor>a span{color:#ffaa5f}.content .search_form_wrap .search_form .search_submit{color:#ffaa5f}.content .search_form_wrap .search_form .search_submit:hover{color:#282828}.top_panel_bottom .search_wrap,.top_panel_inner_style_4 .search_wrap{/*padding-top:calc(inherit*0.65);	padding-bottom:calc(inherit*0.5);*/}.top_panel_inner_style_1 .search_form_wrap,.top_panel_inner_style_2 .search_form_wrap{/*background-color:rgba(40,40,40,0.2); */}.top_panel_icon{/*margin:calc(inherit*0.7) 0 inherit 1em;*/}.top_panel_icon.search_wrap{/*color:#ffaa5f;*/}.top_panel_icon .contact_icon,.top_panel_icon .search_submit{/*color:#ffaa5f;*/}.top_panel_middle a:hover .contact_icon,.top_panel_icon.search_wrap:hover,.top_panel_icon:hover .contact_icon,.top_panel_icon:hover .search_submit{/*background-color:#ffaa5f;*/}.search_results .post_more,.search_results .search_results_close{color:#ffaa5f}.search_results .post_more:hover,.search_results .search_results_close:hover{color:#282828}.top_panel_fixed .menu_main_wrap{padding-top:calc(inherit*0.3)}.top_panel_fixed .top_panel_wrap .logo{margin-top:calc(inherit*0.6);	margin-bottom:calc(inherit*0.6)}.top_panel_inner_style_8 .top_panel_buttons,.top_panel_inner_style_8 .menu_pushy_wrap .menu_pushy_button{padding-top:inherit;	padding-bottom:inherit}.pushy_inner a{color:#ffaa5f}.pushy_inner a:hover{color:#282828}.top_panel_inner_style_3 .popup_wrap a,.top_panel_inner_style_3 .popup_wrap .sc_socials.sc_socials_type_icons a:hover,.top_panel_inner_style_4 .popup_wrap a,.top_panel_inner_style_4 .popup_wrap .sc_socials.sc_socials_type_icons a:hover,.top_panel_inner_style_5 .popup_wrap a,.top_panel_inner_style_5 .popup_wrap .sc_socials.sc_socials_type_icons a:hover{color:#ffaa5f}.top_panel_inner_style_3 .popup_wrap a:hover,.top_panel_inner_style_4 .popup_wrap a:hover,.top_panel_inner_style_5 .popup_wrap a:hover{color:#282828}.post_title .post_icon{color:#ffaa5f}.pagination>a{border-color:#ffaa5f}.post_info_bottom a{color:#ffaa5f}.post_info_bottom a:hover{color:#282828}.post_format_aside.post_item_single .post_content p,.post_format_aside .post_descr{border-color:#ffaa5f}.post_info{;}.post_info a[class*="icon-"]{color:#ffaa5f}.post_info a:hover,.post_info a:hover>span{color:#282828}.footer_wrap .post_info a:hover,.footer_wrap .post_info a:hover>span{color:#ffaa5f}.post_item .post_readmore:hover .post_readmore_label{color:#282828}.post_item .post_title a{color:#282828}.post_item .post_title a:hover{color:#ffaa5f}.top_panel_wrap .search_wrap .search_results_content>.post_item{color:#282828}.post_item_related .post_title a:hover{color:#ffaa5f}.post_item_related .post_info a:hover{color:#282828}.isotope_item_colored .post_featured .post_mark_new,.isotope_item_colored .post_featured .post_title,.isotope_item_colored .post_content.ih-item.square.colored .info{background-color:#ffaa5f}.isotope_item_colored .post_category a,.isotope_item_colored .post_rating .reviews_stars_bg,.isotope_item_colored .post_rating .reviews_stars_hover,.isotope_item_colored .post_rating .reviews_value{color:#ffaa5f}.isotope_item_colored .post_info_wrap .post_button .sc_button{color:#ffaa5f}.isotope_item_colored_1 .post_item{background-color:red;	color:red}.isotope_item_colored_1 a,.isotope_item_colored_1 .post_title a{color:red}.isotope_item_colored_1 a:hover,.isotope_item_colored_1 .post_title a:hover,.isotope_item_colored_1 .post_category a:hover{color:red}.isotope_wrap .isotope_item_colored_1 .post_featured{border-color:#ffaa5f}.isotope_filters a{border-color:#ffaa5f;	background-color:#ffaa5f}.isotope_filters a.active,.isotope_filters a:hover{border-color:#282828;	background-color:#282828}.pagination_single>.pager_numbers,.pagination_single a,.pagination_slider .pager_cur,.pagination_pages>a,.pagination_pages>span{border-color:#282828;	color:#282828}.pagination_single>.pager_numbers,.pagination_single a:hover,.pagination_slider .pager_cur:hover,.pagination_slider .pager_cur:focus,.pagination_pages>.active,.pagination_pages>a:hover{color:#ffffff;	background-color:#282828}.pagination_wrap .pager_next,.pagination_wrap .pager_prev,.pagination_wrap .pager_last,.pagination_wrap .pager_first{color:#282828}.pagination_wrap .pager_next:hover,.pagination_wrap .pager_prev:hover,.pagination_wrap .pager_last:hover,.pagination_wrap .pager_first:hover{color:#ffaa5f}.pagination_viewmore>a{background-color:#ffaa5f}.pagination_viewmore>a:hover{background-color:#282828}.viewmore_loader,.mfp-preloader span,.sc_video_frame.sc_video_active:before{background-color:#282828}.post_featured .post_nav_item:before{background-color:#ffaa5f}.post_featured .post_nav_item .post_nav_info{background-color:#ffaa5f}.reviews_block .reviews_summary .reviews_item{background-color:#ffaa5f}.reviews_block .reviews_summary,.reviews_block .reviews_max_level_100 .reviews_stars_bg{background-color:red}.reviews_block .reviews_max_level_100 .reviews_stars_hover,.reviews_block .reviews_item .reviews_slider{background-color:#ffaa5f}.reviews_block .reviews_item .reviews_stars_hover{color:#ffaa5f}/* Summary stars in the post item (under the title) */.post_item .post_rating .reviews_stars_bg,.post_item .post_rating .reviews_stars_hover,.post_item .post_rating .reviews_value{color:#ffaa5f}.post_author .post_author_title a{color:#ffaa5f}.post_author .post_author_title a:hover{color:#282828}//.post_author .post_author_info .sc_socials a:hover{//	color:#282828;//}.comments_list_wrap .comment-respond{border-bottom-color:#282828}.comments_list_wrap>ul{border-bottom-color:#282828}.comments_list_wrap .comment_info>span.comment_author{color:#ffaa5f}.post_item_404 .page_title{color:#ffaa5f}.post_item_404 .page_subtitle{color:#282828}.sidebar_outer_menu .menu_side_nav>li>a,.sidebar_outer_menu .menu_side_responsive>li>a{font-family:Lato;font-size:0.857em;font-weight:b}.sidebar_outer_menu .menu_side_nav>li ul,.sidebar_outer_menu .menu_side_responsive>li ul{font-family:Lato;font-size:12px}.sidebar_outer_menu .menu_side_nav>li ul li a,.sidebar_outer_menu .menu_side_responsive>li ul li a{padding:inherit 1.5em inherit}.sidebar_outer_menu .sidebar_outer_menu_buttons>a:hover,.scheme_dark .sidebar_outer_menu .sidebar_outer_menu_buttons>a:hover,.scheme_light .sidebar_outer_menu .sidebar_outer_menu_buttons>a:hover{/*color:#ffaa5f;*/}.widget_area_inner a,.widget_area_inner ul li:before,.widget_area_inner ul li a:hover,.widget_area_inner button:before{color:#ffaa5f}.widget_area_inner a:hover,.widget_area_inner ul li a,.widget_area_inner button:hover:before{color:#282828}.widget_area_inner .widget_text a:not(.sc_button),.widget_area_inner .post_info a{/*color:#ffaa5f;*/}.widget_area_inner .widget_text a:not(.sc_button):hover,.widget_area_inner .post_info a:hover{/*color:#282828;*/}.footer_wrap_inner.widget_area_inner a{color:#ffffff}.footer_wrap_inner.widget_area_inner a:hover{color:#ffaa5f}.widget_area_inner .widget_product_search .search_button,.widget_area_inner .widget_search .search_button{background:#ffaa5f}.widget_area_inner .widget_product_search .search_button:before,.widget_area_inner .widget_search .search_button:before{color:#ffffff}.widget_area_inner .widget_product_search .search_button:hover,.widget_area_inner .widget_search .search_button:hover{border-color:#282828;	background:#282828}.footer_wrap_inner .widget_product_search .search_button:before,.footer_wrap_inner .widget_search .search_button:before{color:#a4a5a8}.footer_wrap_inner .widget_product_search .search_button:hover:before,.footer_wrap_inner .widget_search .search_button:hover:before{color:#ffffff}/* Widget:Calendar */.widget_area_inner .widget_calendar td a:hover{background-color:#ffaa5f}.widget_area_inner .widget_calendar .today .day_wrap{border-color:#ffaa5f}.footer_wrap_inner.widget_area_inner .widget_calendar a{color:#ffffff}.footer_wrap_inner.widget_area_inner .widget_calendar a:hover{color:#ffaa5f}.footer_wrap_inner.widget_area_inner .widget_calendar a.day_wrap{color:#ffaa5f}.footer_wrap_inner.widget_area_inner .widget_calendar a.day_wrap:hover{color:#ffffff;	background-color:#ffaa5f}/* Widget:Tag Cloud */.widget_area .widget_product_tag_cloud a:hover,.widget_area .widget_tag_cloud a:hover{background-color:#ffaa5f;	border-color:#ffaa5f;	color:#ffffff}.testimonials_wrap_inner,.twitter_wrap_inner{background-color:#ffaa5f}.copyright_wrap_inner .menu_footer_nav li a:hover,.scheme_dark .copyright_wrap_inner .menu_footer_nav li a:hover,.scheme_light .copyright_wrap_inner .menu_footer_nav li a:hover{color:#ffaa5f}.scroll_to_top{background-color:#ffaa5f}.scroll_to_top:hover{background-color:#282828}.custom_options #co_toggle{background-color:#282828 !important}.woocommerce .woocommerce-message:before,.woocommerce-page .woocommerce-message:before,.woocommerce div.product span.price,.woocommerce div.product p.price,.woocommerce #content div.product span.price,.woocommerce #content div.product p.price,.woocommerce-page div.product span.price,.woocommerce-page div.product p.price,.woocommerce-page #content div.product span.price,.woocommerce-page #content div.product p.price,.woocommerce ul.products li.product .price,.woocommerce-page ul.products li.product .price,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover,.woocommerce-page a.button.alt:hover,.woocommerce-page button.button.alt:hover,.woocommerce-page input.button.alt:hover,.woocommerce-page #respond input#submit.alt:hover,.woocommerce-page #content input.button.alt:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #content input.button:hover,.woocommerce-page a.button:hover,.woocommerce-page button.button:hover,.woocommerce-page input.button:hover,.woocommerce-page #respond input#submit:hover,.woocommerce-page #content input.button:hover,.woocommerce .quantity input[type="button"]:hover,.woocommerce #content input[type="button"]:hover,.woocommerce-page .quantity input[type="button"]:hover,.woocommerce-page #content .quantity input[type="button"]:hover,.woocommerce ul.cart_list li>.amount,.woocommerce ul.product_list_widget li>.amount,.woocommerce-page ul.cart_list li>.amount,.woocommerce-page ul.product_list_widget li>.amount,.woocommerce ul.cart_list li span .amount,.woocommerce ul.product_list_widget li span .amount,.woocommerce-page ul.cart_list li span .amount,.woocommerce-page ul.product_list_widget li span .amount,.woocommerce ul.cart_list li ins .amount,.woocommerce ul.product_list_widget li ins .amount,.woocommerce-page ul.cart_list li ins .amount,.woocommerce-page ul.product_list_widget li ins .amount,.woocommerce.widget_shopping_cart .total .amount,.woocommerce .widget_shopping_cart .total .amount,.woocommerce-page.widget_shopping_cart .total .amount,.woocommerce-page .widget_shopping_cart .total .amount,.woocommerce a:hover h3,.woocommerce-page a:hover h3,.woocommerce .cart-collaterals .order-total strong,.woocommerce-page .cart-collaterals .order-total strong,.woocommerce .checkout #order_review .order-total .amount,.woocommerce-page .checkout #order_review .order-total .amount,.woocommerce .star-rating,.woocommerce-page .star-rating,.woocommerce .star-rating:before,.woocommerce-page .star-rating:before,.widget_area_inner .widgetWrap ul>li .star-rating span,.woocommerce #review_form #respond .stars a,.woocommerce-page #review_form #respond .stars a{color:#ffaa5f}.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range{background-color:#ffaa5f}.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle{background:#ffaa5f}.woocommerce .woocommerce-message,.woocommerce-page .woocommerce-message,.woocommerce a.button.alt:active,.woocommerce button.button.alt:active,.woocommerce input.button.alt:active,.woocommerce #respond input#submit.alt:active,.woocommerce #content input.button.alt:active,.woocommerce-page a.button.alt:active,.woocommerce-page button.button.alt:active,.woocommerce-page input.button.alt:active,.woocommerce-page #respond input#submit.alt:active,.woocommerce-page #content input.button.alt:active,.woocommerce a.button:active,.woocommerce button.button:active,.woocommerce input.button:active,.woocommerce #respond input#submit:active,.woocommerce #content input.button:active,.woocommerce-page a.button:active,.woocommerce-page button.button:active,.woocommerce-page input.button:active,.woocommerce-page #respond input#submit:active,.woocommerce-page #content input.button:active{border-top-color:#ffaa5f}.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce #respond input#submit,.woocommerce #content input.button,.woocommerce-page a.button,.woocommerce-page button.button,.woocommerce-page input.button,.woocommerce-page #respond input#submit,.woocommerce-page #content input.button,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce-page a.button.alt,.woocommerce-page button.button.alt,.woocommerce-page input.button.alt,.woocommerce-page #respond input#submit.alt,.woocommerce-page #content input.button.alt,.woocommerce-account .addresses .title .edit{background-color:#ffaa5f}.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #content input.button:hover,.woocommerce-page a.button:hover,.woocommerce-page button.button:hover,.woocommerce-page input.button:hover,.woocommerce-page #respond input#submit:hover,.woocommerce-page #content input.button:hover,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover,.woocommerce-page a.button.alt:hover,.woocommerce-page button.button.alt:hover,.woocommerce-page input.button.alt:hover,.woocommerce-page #respond input#submit.alt:hover,.woocommerce-page #content input.button.alt:hover,.woocommerce-account .addresses .title .edit:hover{background-color:#282828;	color:#ffffff}.woocommerce span.new,.woocommerce-page span.new,.woocommerce span.onsale,.woocommerce-page span.onsale{background-color:#282828}.woocommerce ul.products li.product .price,.woocommerce-page ul.products li.product .price,.woocommerce ul.products li.product .star-rating:before,.woocommerce ul.products li.product .star-rating span{color:#ffaa5f}.woocommerce ul.products li.product .add_to_cart_button,.woocommerce-page ul.products li.product .add_to_cart_button{background-color:#ffaa5f;	border-color:#ffaa5f;	color:#ffffff}.woocommerce ul.products li.product .add_to_cart_button:hover,.woocommerce-page ul.products li.product .add_to_cart_button:hover{background-color:#282828;	border-color:#282828;	color:#ffffff}.single-product .woocommerce-tabs.trx-stretch-width .wc-tabs li.active a:after{background-color:#ffaa5f}.single-product .woocommerce-tabs.trx-stretch-width .wc-tabs li.active a:hover:after{background-color:#282828}.woocommerce nav.woocommerce-pagination ul li a,.woocommerce nav.woocommerce-pagination ul li span.current{border-color:#ffaa5f;	background-color:#ffaa5f}.woocommerce nav.woocommerce-pagination ul li a:focus,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li span.current{color:#ffaa5f}.woocommerce table.cart thead th,.woocommerce #content table.cart thead th,.woocommerce-page table.cart thead th,.woocommerce-page #content table.cart thead th{background-color:#ffaa5f}.top_panel_wrap .widget_shopping_cart ul.cart_list li,.top_panel_wrap .widget_shopping_cart ul.cart_list li a,.header_mobile .widget_shopping_cart ul.cart_list li,.header_mobile .widget_shopping_cart ul.cart_list li a{color:#282828}.top_panel_wrap .widget_shopping_cart ul.cart_list li a:hover,.header_mobile .widget_shopping_cart ul.cart_list li a:hover{color:#ffaa5f}.woocommerce .widget_shopping_cart .total strong,.woocommerce.widget_shopping_cart .total strong{color:#282828}.woocommerce .widget_shopping_cart .woocommerce-mini-cart__empty-message{color:#ffaa5f;	color:#838488}.tribe-events-calendar thead th{/*background-color:#ffaa5f;*/}a.tribe-events-read-more,.tribe-events-button,.tribe-events-nav-previous a,.tribe-events-nav-next a,.tribe-events-widget-link a,.tribe-events-viewmore a{/*background-color:#ffaa5f;*/}a.tribe-events-read-more:hover,.tribe-events-button:hover,.tribe-events-nav-previous a:hover,.tribe-events-nav-next a:hover,.tribe-events-widget-link a:hover,.tribe-events-viewmore a:hover{/*background-color:#282828;*/}#bbpress-forums div.bbp-topic-content a,#buddypress button,#buddypress a.button,#buddypress input[type="submit"],#buddypress input[type="button"],#buddypress input[type="reset"],#buddypress ul.button-nav li a,#buddypress div.generic-button a,#buddypress .comment-reply-link,a.bp-title-button,#buddypress div.item-list-tabs ul li.selected a{background:#ffaa5f}#bbpress-forums div.bbp-topic-content a:hover,#buddypress button:hover,#buddypress a.button:hover,#buddypress input[type="submit"]:hover,#buddypress input[type="button"]:hover,#buddypress input[type="reset"]:hover,#buddypress ul.button-nav li a:hover,#buddypress div.generic-button a:hover,#buddypress .comment-reply-link:hover,a.bp-title-button:hover,#buddypress div.item-list-tabs ul li.selected a:hover{background:#282828}#buddypress #reply-title small a span,#buddypress a.bp-primary-action span{color:#ffaa5f}.booking_font_custom,.booking_day_container,.booking_calendar_container_all{font-family:Martel}.booking_weekdays_custom{font-family:Lato}.booking_month_navigation_button_custom:hover{background-color:#282828 !important}#learndash_next_prev_link>a{background-color:#ffaa5f}#learndash_next_prev_link>a:hover{background-color:#282828}.widget_area dd.course_progress div.course_progress_blue{background-color:#282828}.content .gm-style *{color:#282828 !important}.sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-hover,.sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active{color:#ffaa5f}.sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-hover .sc_accordion_icon,.sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active .sc_accordion_icon{border-color:#ffaa5f;	color:#ffaa5f}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.mejs-controls .mejs-time-rail .mejs-time-current{background:#ffaa5f !important}input[type="submit"],input[type="reset"],input[type="button"],button,.sc_button{font-family:Lato;font-size:0.857em;font-weight:b}input[type="submit"],input[type="reset"],input[type="button"],button{color:#ffaa5f;	border-color:#ffaa5f}input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,button:hover{background-color:#ffaa5f}.sc_button.sc_button_style_border{/*border-color:#ffaa5f;*/	/*color:#ffaa5f;*/}.sc_button.sc_button_style_border:hover{/*border-color:#282828 !important;*/}.sc_blogger.layout_date .sc_blogger_item .sc_blogger_date{background-color:#ffaa5f;	border-color:#ffaa5f}.sc_blogger.layout_polaroid .photostack nav span.current{background-color:#ffaa5f}.sc_blogger.layout_polaroid .photostack nav span.current.flip{background-color:#282828}.sc_call_to_action_accented{/*background-color:#ffaa5f;*/}.sc_call_to_action_accented .sc_item_button>a{/*color:#ffaa5f;*/}.sc_call_to_action_accented .sc_item_button>a:before{/*background-color:#ffaa5f;*/}.sc_chat_inner a{color:#ffaa5f}.sc_chat_inner a:hover{color:#282828}.sc_clients_style_clients-2 .sc_client_title a:hover{color:#ffaa5f}.sc_clients_style_clients-2 .sc_client_description:before,.sc_clients_style_clients-2 .sc_client_position{color:#ffaa5f}.sc_form .sc_form_item.sc_form_button button{color:#ffaa5f;	border-color:#ffaa5f}.sc_form .sc_form_item.sc_form_button button:hover{background-color:#ffaa5f}.sc_form table.picker__table th{background-color:#ffaa5f}.sc_form .picker__day--today:before,.sc_form .picker__button--today:before,.sc_form .picker__button--clear:before,.sc_form button:focus{border-color:#ffaa5f}.sc_form .picker__button--close:before{color:#ffaa5f}.sc_form .picker--time .picker__button--clear:hover,.sc_form .picker--time .picker__button--clear:focus{background-color:#282828}.sc_countdown.sc_countdown_style_1 .sc_countdown_inner .sc_countdown_item .sc_countdown_digits span{color:#ffffff;	background:#282828}.sc_countdown.sc_countdown_style_1 .sc_countdown_inner .sc_countdown_separator{color:#282828}.sc_countdown.sc_countdown_style_2 .sc_countdown_inner .sc_countdown_item .sc_countdown_digits span{color:#282828}.sc_countdown.sc_countdown_style_2 .sc_countdown_inner .sc_countdown_item .sc_countdown_label{color:#ffaa5f}.sc_dropcaps.sc_dropcaps_style_1 .sc_dropcaps_item{color:#ffaa5f;	border-color:#ffaa5f}.sc_dropcaps.sc_dropcaps_style_2 .sc_dropcaps_item{color:#282828;	border-color:#282828}.sc_dropcaps.sc_dropcaps_style_3 .sc_dropcaps_item{border-color:#282828;	background:#282828}.sc_dropcaps.sc_dropcaps_style_4 .sc_dropcaps_item{border-color:#ffaa5f;	background:#ffaa5f}.sc_events_style_events-2 .sc_events_item_date{background-color:#ffaa5f}.sc_highlight_style_1{background-color:#ffaa5f}.sc_highlight_style_2{background-color:#282828}.sc_icon_hover:hover,a:hover .sc_icon_hover{background-color:#ffaa5f !important}.sc_icon_shape_round.sc_icon,.sc_icon_shape_square.sc_icon{background-color:#ffaa5f;	border-color:#ffaa5f}.sc_icon_shape_round.sc_icon:hover,.sc_icon_shape_square.sc_icon:hover,a:hover .sc_icon_shape_round.sc_icon,a:hover .sc_icon_shape_square.sc_icon{color:#ffaa5f}figure figcaption,.sc_image figcaption{/*background-color:rgba(127,212,167,0.6);*/}.sc_infobox.sc_infobox_style_info{color:#282828;	border-color:#ffaa5f;	background:none}.sc_infobox.sc_infobox_style_success{color:#fff;	border-color:#ffaa5f;	background:#ffaa5f}.sc_infobox.sc_infobox_style_error{color:#fff;	border-color:#282828;	background:#282828}.sc_infobox.sc_infobox_style_result{color:#282828;	border-color:#282828;	background:none}.sc_list_style_iconed li:before,.sc_list_style_iconed .sc_list_icon{color:#ffaa5f}.sc_list_style_iconed li a:hover .sc_list_title{color:#282828}.sc_popup:before{background-color:#ffaa5f}.sc_price_block{border-color:#ffaa5f}.vc_row.inverse_colors .sc_price_block{border-color:#ffffff}.sc_price_block .sc_price_block_title{color:#282828}.sc_price_block .sc_price_block_money{color:#282828}.sc_scroll_controls_wrap a{background-color:#ffaa5f}.sc_scroll_controls_type_side .sc_scroll_controls_wrap a{background-color:rgba(127,212,167,0.8)}.sc_scroll_controls_wrap a:hover{background-color:#282828}.sc_scroll_bar .swiper-scrollbar-drag:before{background-color:#ffaa5f}.sc_skills_counter .sc_skills_item .sc_skills_icon{color:#ffaa5f}.sc_skills_counter .sc_skills_item:hover .sc_skills_icon{color:#282828}.sc_skills_bar .sc_skills_item .sc_skills_count{border-color:#ffaa5f}.sc_skills_bar .sc_skills_item .sc_skills_count,.sc_skills_counter .sc_skills_item.sc_skills_style_3 .sc_skills_count,.sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_count,.sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_info{background-color:#ffaa5f}.sc_skills_counter .sc_skills_item.sc_skills_style_1 .sc_skills_info{color:#ffaa5f}.sc_slider_controls_wrap a:hover{color:#ffaa5f}.sc_slider_swiper .sc_slider_pagination_wrap .swiper-pagination-bullet-active,.sc_slider_swiper .sc_slider_pagination_wrap span:hover,.sc_testimonials_style_testimonials-1 .sc_slider_swiper .sc_slider_pagination_wrap .swiper-pagination-bullet-active,.sc_testimonials_style_testimonials-1 .sc_slider_swiper .sc_slider_pagination_wrap span:hover,.sc_players_style_players-1 .sc_slider_pagination_wrap .swiper-pagination-bullet-active,.sc_players_style_players-1 .sc_slider_pagination_wrap span:hover,.sc_team_style_team-1 .sc_slider_swiper .sc_slider_pagination_wrap .swiper-pagination-bullet-active,.sc_team_style_team-1 .sc_slider_swiper .sc_slider_pagination_wrap span:hover{border-color:#ffaa5f;	background-color:#ffaa5f}.sc_slider_swiper .sc_slider_info{background-color:rgba(127,212,167,0.8) !important}.sc_slider_pagination_over .sc_slider_pagination_wrap span:hover,.sc_slider_pagination_over .sc_slider_pagination_wrap .swiper-pagination-bullet-active{border-color:#ffaa5f;	background-color:#ffaa5f}.sc_players_style_players-1.sc_slider_controls_side .sc_slider_controls_wrap a,.sc_testimonials_style_testimonials-1 .sc_slider_controls_side .sc_slider_controls_wrap a,.sc_team_style_team-1 .sc_slider_controls_side .sc_slider_controls_wrap a{color:#282828}.sc_players_style_players-1.sc_slider_controls_side .sc_slider_controls_wrap a:hover,.sc_testimonials_style_testimonials-1 .sc_slider_controls_side .sc_slider_controls_wrap a:hover,.sc_team_style_team-1 .sc_slider_controls_side .sc_slider_controls_wrap a:hover{color:#ffaa5f}.sc_socials.sc_socials_shape_round a:hover{background:#ffaa5f}.sc_socials.sc_socials_type_icons a:hover,.scheme_dark .sc_socials.sc_socials_type_icons a:hover,.scheme_light .sc_socials.sc_socials_type_icons a:hover{/*color:#ffaa5f;	border-color:#ffaa5f;*/}.sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.ui-state-active a,.sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.sc_tabs_active a,.sc_tabs.sc_tabs_style_1 .sc_tabs_titles li a:hover{color:#ffaa5f}.sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.ui-state-active a:after,.sc_tabs.sc_tabs_style_1 .sc_tabs_titles li.sc_tabs_active a:after{background-color:#ffaa5f}.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a:hover,.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li.ui-state-active a,.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li.sc_tabs_active a{border-color:#ffaa5f;	background-color:#ffaa5f;	color:#ffffff}.sc_player_info .sc_player_title a{color:#282828}.sc_player_info .sc_player_title a:hover{color:#ffaa5f}.sc_team_item_info .sc_team_item_title a{color:#282828}.sc_team_item_info .sc_team_item_title a:hover{color:#ffaa5f}.sc_testimonials_style_testimonials-3 .sc_testimonial_content p:first-child:before,.sc_testimonials_style_testimonials-3 .sc_testimonial_author_position{color:#ffaa5f}.sc_testimonials_style_testimonials-4 .sc_testimonial_content p:first-child:before,.sc_testimonials_style_testimonials-4 .sc_testimonial_author_position{color:#ffaa5f}.sc_title_icon{color:#ffaa5f}.sc_title_underline::after{border-color:#ffaa5f}.sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active{color:#ffaa5f;	border-color:#ffaa5f}.sc_toggles .sc_toggles_item .sc_toggles_title.ui-state-active .sc_toggles_icon_opened{background-color:#ffaa5f}.sc_toggles .sc_toggles_item .sc_toggles_title:hover{color:#282828;	border-color:#282828}.sc_toggles .sc_toggles_item .sc_toggles_title:hover .sc_toggles_icon_opened{background-color:#282828}.sc_tooltip_parent .sc_tooltip,.sc_tooltip_parent .sc_tooltip:before{background-color:#ffaa5f}/* Common styles (title,subtitle and description for some shortcodes) */.sc_item_subtitle{color:#ffaa5f}.sc_item_title:after{background-color:#ffaa5f}.sc_item_button>a:before{color:#ffaa5f}.sc_item_button>a:hover:before{color:#282828}.sc_quote_title,.sc_quote_title a{color:#282828}.sc_quote_title a:hover{color:#ffaa5f}.header_mobile .content_wrap{}.datepicker table tr td span.active.active{background-color:#ffaa5f}
+</style>
+<link rel='stylesheet' id='n7-golf-club-responsive-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-skin-responsive-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/skins/no_less/skin.responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://golfclub.themerex.net/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.13-9993131' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://golfclub.themerex.net/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://golfclub.themerex.net/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgdprc.css-css'  href='http://golfclub.themerex.net/wp-content/plugins/wp-gdpr-compliance/assets/css/front.min.css?ver=1595152704' type='text/css' media='all' />
+<style id='wpgdprc.css-inline-css' type='text/css'>
+
+            div.wpgdprc .wpgdprc-switch .wpgdprc-switch-inner:before { content: 'Yes'; }
+            div.wpgdprc .wpgdprc-switch .wpgdprc-switch-inner:after { content: 'No'; }
+        
+</style>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.4.4'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.4.6'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/golfclub.themerex.net\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.3.4'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.5.5'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/photostack/modernizr.min.js'></script>
+<link rel='https://api.w.org/' href='http://golfclub.themerex.net/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://golfclub.themerex.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://golfclub.themerex.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<meta name="generator" content="WooCommerce 4.3.4" />
+<link rel="canonical" href="http://golfclub.themerex.net/results/" />
+<link rel='shortlink' href='http://golfclub.themerex.net/?p=44' />
+<link rel="alternate" type="application/json+oembed" href="http://golfclub.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgolfclub.themerex.net%2Fresults%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://golfclub.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgolfclub.themerex.net%2Fresults%2F&#038;format=xml" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="http://golfclub.themerex.net"><link rel="https://theeventscalendar.com/" href="http://golfclub.themerex.net/wp-json/tribe/events/v1/" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://golfclub.themerex.net/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 6.4.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="page-template-default page page-id-44 theme-n7-golf-club woocommerce-no-js tribe-no-js n7_golf_club_body body_style_wide body_filled theme_skin_no_less article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-5.5.5 vc_responsive">
+
+	
+	
+	
+	
+	<div class="body_wrap">
+
+		
+		<div class="page_wrap">
+
+					
+		<div class="top_panel_fixed_wrap"></div>
+
+		<header class="top_panel_wrap top_panel_style_1 scheme_original" 	style="background: url(images/course.jpg); ">
+			<div class="top_panel_wrap_inner top_panel_inner_style_1 top_panel_position_over" >
+				<div class="content_wrap">
+
+					<div class="top_panel_content">
+
+						<!-- <div class="top_panel_content_logo">		<div class="logo" style="display: none;">
+			<a href="http://golfclub.themerex.net/"><img src="images/icon.png" class="logo_main" alt="logo-main" width="84" height="84"><img src="http://golfclub.themerex.net/wp-content/uploads/2016/04/logo_fixed_1.png" class="logo_fixed" alt="logo-fixed" width="123" height="85"></a>
+		</div>
+		</div> -->
+						<div class="top_panel_content_menu">
+
+							<nav class="menu_main_nav_area">
+								<img src="images/logo.png" style="height: 140px; margin: -4%;">
+								<ul id="menu_main" class="menu_main_nav"><li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-childrens menu-item-904"><a href="/dgevents/index.html"><span>Hem</span></a>
+									<!-- <ul class="sub-menu">
+										<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-36 current_page_item menu-item-75"><a href="http://golfclub.themerex.net/" aria-current="page"><span>Home 1</span></a></li>
+										<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://golfclub.themerex.net/home-2/"><span>Home 2</span></a></li>
+									</ul> -->
+									</li>	
+									<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="/dgevents/tours.html"><span>Tourer</span></a>
+										<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="/dgevents/shop.html"><span>Shop</span></a>
+										<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="/dgevents/contact.html"><span>Kontakt</span></a></li>
+									
+									
+									<!-- <ul class="sub-menu">
+										<li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="http://golfclub.themerex.net/grid/"><span>Grid</span></a></li>
+										<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="http://golfclub.themerex.net/masonry/"><span>Masonry</span></a></li>
+										<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://golfclub.themerex.net/cobbles/"><span>Cobbles</span></a></li>
+									</ul> -->
+									</li>
+									</ul>							</nav>
+							<div class="search_wrap search_style_regular search_state_closed search_ajax">
+						<div class="search_form_wrap">
+							<form role="search" method="get" class="search_form" action="http://golfclub.themerex.net/">
+								<button type="submit" class="search_submit" title="Open search"><i class="fas fa-search"></i></button>
+								<input type="text" class="search_field" placeholder="Search" value="" name="s" />
+							</form>
+						</div>
+						<div class="search_results widget_area scheme_original"><a class="search_results_close icon-cancel"></a><div class="search_results_content"></div></div>
+				</div><div class="top_panel_cart_button_box"><a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+                    <i class="fas fa-shopping-cart" style="margin-left: 7px"></i>
+</a>
+<ul class="widget_area sidebar_cart sidebar"><li>
+	<div class="widget woocommerce widget_shopping_cart"><div class="hide_cart_widget_if_empty"><div class="widget_shopping_cart_content"></div></div></div></li></ul></div>
+							<div class="cL"></div>
+						</div>
+						<div class="cL"></div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+
+			<div class="header_mobile">
+		<div class="content_wrap">
+			<div class="menu_button icon-menu"></div>
+					<div class="logo">
+			<a href="http://golfclub.themerex.net/"><img src="http://golfclub.themerex.net/wp-content/uploads/2016/03/footer-1.png" class="logo_main" alt="logo-main" width="84" height="84"></a>
+		</div>
+							<div class="menu_main_cart top_panel_icon">
+						<a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
+	<span class="contact_icon icon-basket"></span>
+</a>
+<ul class="widget_area sidebar_cart sidebar"><li>
+	<div class="widget woocommerce widget_shopping_cart"><div class="hide_cart_widget_if_empty"><div class="widget_shopping_cart_content"></div></div></div></li></ul>					</div>
+							</div>
+		<div class="side_wrap">
+			<div class="close">Close</div>
+			<div class="panel_top">
+				<nav class="menu_main_nav_area">
+					<ul id="menu_main" class="menu_main_nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-904"><a href="#"><span>Home</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-75"><a href="http://golfclub.themerex.net/"><span>Home 1</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://golfclub.themerex.net/home-2/"><span>Home 2</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-79"><a href="#"><span>About</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114"><a href="#"><span>eCommerce</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="http://golfclub.themerex.net/shop/"><span>Shop</span></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1211"><a href="/product/x-hot-speedblade-hl-stl-4-pw/"><span>Single product</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92"><a href="#"><span>Features</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://golfclub.themerex.net/typography/"><span>Typography</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://golfclub.themerex.net/shortcodes/"><span>Shortcodes</span></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1176"><a href="/qwerty"><span>Page 404</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://golfclub.themerex.net/about-us/"><span>About us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://golfclub.themerex.net/pricing/"><span>Pricing</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://golfclub.themerex.net/contact-us/"><span>Contact Us</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80"><a href="#"><span>News</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81"><a href="http://golfclub.themerex.net/category/classic/"><span>Classic</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#"><span>Masonry</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-82"><a href="http://golfclub.themerex.net/category/masonry-2-columns/"><span>Masonry 2 columns</span></a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-83"><a href="http://golfclub.themerex.net/category/masonry-3-columns/"><span>Masonry 3 columns</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-88"><a href="#"><span>Portfolio</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-84"><a href="http://golfclub.themerex.net/category/portfolio-2-columns/"><span>Portfolio 2 columns</span></a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a href="http://golfclub.themerex.net/category/portfolio-3-columns/"><span>Portfolio 3 columns</span></a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a href="http://golfclub.themerex.net/category/post-formats/"><span>Post Formats</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1322"><a href="/whats-most-important-in-a-golf-course/"><span>Single Post</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-89"><a href="#"><span>Playing</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://golfclub.themerex.net/league-table/"><span>League Table</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-44 current_page_item menu-item-70"><a href="http://golfclub.themerex.net/results/" aria-current="page"><span>Results</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1298"><a href="#"><span>All Events</span></a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="http://golfclub.themerex.net/events/"><span>Events</span></a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299"><a href="/event/nationwide-shriners-hospitals-for-children-open/"><span>Standard event</span></a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1302"><a href="http://golfclub.themerex.net/alternative-event/"><span>Alternative event</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://golfclub.themerex.net/book-a-court/"><span>Book a field</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-91"><a href="#"><span>Members area</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://golfclub.themerex.net/our-team/"><span>Our Team</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-369"><a href="/players/terri-jimenez/"><span>Team Member</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-90"><a href="#"><span>Gallery</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="http://golfclub.themerex.net/grid/"><span>Grid</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="http://golfclub.themerex.net/masonry/"><span>Masonry</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://golfclub.themerex.net/cobbles/"><span>Cobbles</span></a></li>
+</ul>
+</li>
+</ul>				</nav>
+				<div class="search_wrap search_style_regular search_state_fixed search_ajax">
+						<div class="search_form_wrap">
+							<form role="search" method="get" class="search_form" action="http://golfclub.themerex.net/">
+								<button type="submit" class="search_submit icon-magnifying-glass2" title="Start search"></button>
+								<input type="text" class="search_field" placeholder="Search" value="" name="s" />
+							</form>
+						</div>
+						<div class="search_results widget_area scheme_original"><a class="search_results_close icon-cancel"></a><div class="search_results_content"></div></div>
+				</div><div class="login"><a href="#popup_login" class="popup_link popup_login_link icon-user" title="">Login</a><div id="popup_login" class="popup_wrap popup_login bg_tint_light popup_half">
+	<a href="#" class="popup_close"></a>
+	<div class="form_wrap">
+		<div>
+			<form action="http://golfclub.themerex.net/wp-login.php" method="post" name="login_form" class="popup_form login_form">
+				<input type="hidden" name="redirect_to" value="http://golfclub.themerex.net/">
+				<div class="popup_form_field login_field iconed_field icon-user"><input type="text" id="log" name="log" value="" placeholder="Login or Email"></div>
+				<div class="popup_form_field password_field iconed_field icon-lock"><input type="password" id="password" name="pwd" value="" placeholder="Password"></div>
+				<div class="popup_form_field remember_field">
+					<a href="http://golfclub.themerex.net/wp-login.php?action=lostpassword&#038;redirect_to=http%3A%2F%2Fgolfclub.themerex.net%2Fresults%2F" class="forgot_password">Forgot password?</a>
+					<input type="checkbox" value="forever" id="rememberme" name="rememberme">
+					<label for="rememberme">Remember me</label>
+				</div>
+				<div class="popup_form_field submit_field">
+										<input type="checkbox" value="1" id="i_agree_privacy_policy_registration" name="i_agree_privacy_policy"><label for="i_agree_privacy_policy_registration"> I agree that my submitted data is being collected and stored.</label>
+											<input type="submit" class="submit_button" value="Login">
+				</div>
+			</form>
+		</div>
+			</div>	<!-- /.login_wrap -->
+</div>		<!-- /.popup_login -->
+</div>			</div>
+			
+						<div class="panel_middle">
+				<div class="contact_field contact_address">
+								<span class="contact_icon icon-home"></span>
+								<span class="contact_label contact_address_1">Chicago, IL 60606</span>
+								<span class="contact_address_2">123, New Lenox</span>
+							</div><div class="contact_field contact_phone">
+						<span class="contact_icon icon-phone"></span>
+						<span class="contact_label contact_phone">123-456-7890</span>
+						<span class="contact_email"></span>
+					</div>
+
+<div class="top_panel_top_user_area">
+			<ul id="menu_user" class="menu_user_nav">
+		
+	</ul>
+
+</div>			</div>
+			
+			<div class="panel_bottom">
+							</div>
+		</div>
+		<div class="mask"></div>
+	</div>
+
+	<h1 class="page_title mobile">Results</h1><div class="breadcrumbs mobile">
+		<a class="breadcrumbs_item home" href="http://golfclub.themerex.net/">Home</a><span class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">Results</span>        </div>
+
+	
+			<div class="page_content_wrap page_paddings_yes">
+
+				
+<div class="content_wrap">
+<div class="content">
+<article class="itemscope post_item post_item_single post_featured_default post_format_standard post-44 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
+<section class="post_content" itemprop="articleBody"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="sc_table aligncenter ltext margin_top_null margin_bottom_null" data-animation="animated fadeInUp normal" style="width:100%;"></p>
+<table>
+<tbody>
+<tr>
+<td width="15%">DATES</td>
+<td width="35%">TOURNAMENT</td>
+<td width="35%">DEFENDING CHAMPION</td>
+<td width="15%">FEDEXCUP POINTS</td>
+</tr>
+<tr>
+<td>Oct 15 – 18</td>
+<td>World Golf Championships-HSBC Champions<br />
+<span class="crtext-spanTable">Purse: $6,000,000</span></td>
+<td><a href="#">Emiliano Grillo</a>   $1,080,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Oct 22 – 25</td>
+<td>Shriners Hospitals for Children Open<br />
+<span class="crtext-spanTable">Purse: $6,400,000</span></td>
+<td><a href="#">Smylie Kaufman</a>   $980,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Oct 29 – Nov 1</td>
+<td>CIMB Classic<br />
+<span class="crtext-spanTable">Purse: $7,000,000</span></td>
+<td><a href="#">Justin Thomas</a>   $1,700,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Nov 5 – 8</td>
+<td>Sanderson Farms Championship<br />
+<span class="crtext-spanTable">Purse: $7,000,000</span></td>
+<td><a href="#">Peter Malnati</a>   $738,000</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Dec 10 – 12</td>
+<td>Hero World Challenge<br />
+<span class="crtext-spanTable">Purse: $6,000,000</span></td>
+<td><a href="#">Fabian Gomez</a>   $1,200,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Jan 7 – 10</td>
+<td>Shriners Hospitals for Children Open<br />
+<span class="crtext-spanTable">Purse: $6,400,000</span></td>
+<td><a href="#">Smylie Kaufman</a>   $980,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Jan 21 – 24</td>
+<td>CareerBuilder Challenge<br />
+<span class="crtext-spanTable">Purse: $7,000,000</span></td>
+<td><a href="#">Justin Thomas</a>   $1,700,000</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Feb 4 – 7</td>
+<td>Sanderson Farms Championship<br />
+<span class="crtext-spanTable">Purse: $7,000,000</span></td>
+<td><a href="#">Peter Malnati</a>   $738,000</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Feb 11 – 14</td>
+<td>Sanderson Farms Championship<br />
+<span class="crtext-spanTable">Purse: $7,000,000</span></td>
+<td><a href="#">Peter Malnati</a>   $5,080,000</td>
+<td>300</td>
+</tr>
+</tbody>
+</table>
+<p></div></div></div></div></div>
+<div class="cL"></div>
+				</section> <!-- </section> class="post_content" itemprop="articleBody"> -->
+			</article> <!-- </article> class="itemscope post_item post_item_single post_featured_default post_format_standard post-44 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article"> -->	<section class="related_wrap related_wrap_empty"></section>
+	
+		</div> <!-- </div> class="content"> -->
+	</div> <!-- </div> class="content_wrap"> -->			
+			</div>		<!-- </.page_content_wrap> -->
+			
+			<footer class="footer_wrap widget_area scheme_original">
+				<div class="footer_wrap_inner widget_area_inner">
+					<div class="content_wrap">
+						<div class="columns_wrap"><aside id="n7_golf_club_widget_socials-2" class="widget_number_1 column-1_4 widget widget_socials"><h5 class="widget_title">ABOUT US</h5>		<div class="widget_inner">
+				
+						<div class="logo_descr"><a href="https://themerex.net/" target="_blank">Appsight Solutions</a> © 2021<br />
+All Rights Reserved.<br />
+<a href="#">Terms of Use</a> and <a href="/privacy-policy">Privacy Policy</a></div>
+				<div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny"><div class="sc_socials_item"><i style="font-size: 20px;" class="fab fa-facebook-square"></i></div><div class="sc_socials_item"><i style="font-size: 20px;" class="fab fa-twitter-square"></i></div><div class="sc_socials_item"><i style="font-size: 20px;" class="fab fa-google-plus-square"></i></div><div class="sc_socials_item"><i style="font-size: 20px;" class="fab fa-instagram-square"></i></div></div>		</div>
+
+	</aside><aside id="text-3" class="widget_number_3 column-1_4 widget widget_text"><h5 class="widget_title">CONTACT US</h5>			<div class="textwidget">
+<div style="width: 300%; justify-content: space-between; display: flex;"><div><i>Address:</i><br><br><i>Chicago, IL 60606, 123, New Lenox</i></div><div><i>Call Us:</i><br><br><a href="tel:+1234567890"><i>123 - 456-7890</i></a></div><div><i>Email: </i><br><br><a href="#"><i>info@yoursite.com</i></a></div></div>
+</div>
+	</aside></div>	<!-- /.columns_wrap -->
+					</div>	<!-- /.content_wrap -->
+				</div>	<!-- /.footer_wrap_inner -->
+			</footer>	<!-- /.footer_wrap -->
+				 
+	
+							
+		</div>	<!-- /.page_wrap -->
+
+	</div>		<!-- /.body_wrap -->
+	
+	
+
+<a href="#" class="scroll_to_top" title="Scroll to top"><i class="fas fa-chevron-up"></i></a>
+
+<div class="custom_html_section">
+</div>
+
+		<script type="text/javascript">
+			var ajaxRevslider;
+			function rsCustomAjaxContentLoadingFunction() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content	= '';
+					var data	= {
+						action:			'revslider_ajax_call_front',
+						client_action:	'get_slider_html',
+						token:			'b4111b1c4f',
+						type:			obj.type,
+						id:				obj.id,
+						aspectratio:	obj.aspectratio
+					};
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:		'post',
+						url:		'http://golfclub.themerex.net/wp-admin/admin-ajax.php',
+						dataType:	'json',
+						data:		data,
+						async:		false,
+						success:	function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error:		function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector + ' .rev_slider').revkill();
+				};
+
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION				
+				if (jQuery.fn.tpessential !== undefined) 					
+					if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') 
+						jQuery.fn.tpessential.defaults.ajaxTypes.push({type: 'revslider', func: ajaxRevslider, killfunc: ajaxRemoveRevslider, openAnimationSpeed: 0.3});   
+						// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+						// func: the Function Name which is Called once the Item with the Post Type has been clicked
+						// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+						// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)					
+			}
+			
+			var rsCustomAjaxContent_Once = false
+			if (document.readyState === "loading") 
+				document.addEventListener('readystatechange',function(){
+					if ((document.readyState === "interactive" || document.readyState === "complete") && !rsCustomAjaxContent_Once) {
+						rsCustomAjaxContent_Once = true;
+						rsCustomAjaxContentLoadingFunction();
+					}
+				});
+			else {
+				rsCustomAjaxContent_Once = true;
+				rsCustomAjaxContentLoadingFunction();
+			}					
+		</script>
+				<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='n7-golf-club-messages-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/core.messages/core.messages.css' type='text/css' media='all' />
+<link rel='stylesheet' id='n7-golf-club-magnific-style-css'  href='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/magnific/magnific-popup.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var booked_js_vars = {"ajax_url":"http:\/\/golfclub.themerex.net\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/booked/assets/js/functions.js?ver=2.2.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TRX_DEMO_STORAGE = {"ajax_url":"http:\/\/golfclub.themerex.net\/wp-admin\/admin-ajax.php","ajax_nonce":"3f6bff8001","site_url":"http:\/\/golfclub.themerex.net","user_logged_in":"0","msg_ajax_error":"Invalid server response! Try again later.","tabs_delay":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/trx_demo/js/trx_demo_panels.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TRX_UTILS_STORAGE = {"ajax_url":"http:\/\/golfclub.themerex.net\/wp-admin\/admin-ajax.php","ajax_nonce":"3f6bff8001","site_url":"http:\/\/golfclub.themerex.net","user_logged_in":"0","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","msg_ajax_error":"Invalid server answer!","msg_error_global":"Invalid field's value!","msg_name_empty":"The name can't be empty","msg_email_empty":"Too short (or empty) email address","msg_email_not_valid":"E-mail address is invalid","msg_text_empty":"The message text can't be empty","msg_send_complete":"Send message complete!","msg_send_error":"Transmit failed!","login_via_ajax":"1","msg_login_empty":"The Login field can't be empty","msg_login_long":"The Login field is too long","msg_password_empty":"The password can't be empty and shorter then 4 characters","msg_password_long":"The password is too long","msg_login_success":"Login success! The page will be reloaded in 3 sec.","msg_login_error":"Login failed!","msg_not_agree":"Please, read and check 'Terms and Conditions'","msg_email_long":"E-mail address is too long","msg_password_not_equal":"The passwords in both fields are not equal","msg_registration_success":"Registration success! Please log in!","msg_registration_error":"Registration failed!"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/trx_utils/js/trx_utils.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.3.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_7174dc0f67e62cced0135a9dccaf8573","fragment_name":"wc_fragments_7174dc0f67e62cced0135a9dccaf8573","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.3.4'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/superfish.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/core.utils.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var N7_GOLF_CLUB_STORAGE = {"theme_font":"Martel","theme_skin_color":"","theme_skin_bg_color":"","strings":{"ajax_error":"Invalid server answer","bookmark_add":"Add the bookmark","bookmark_added":"Current page has been successfully added to the bookmarks. You can see it in the right panel on the tab &#039;Bookmarks&#039;","bookmark_del":"Delete this bookmark","bookmark_title":"Enter bookmark title","bookmark_exists":"Current page already exists in the bookmarks list","search_error":"Error occurs in AJAX search! Please, type your query and press search icon for the traditional search way.","email_confirm":"On the e-mail address &quot;%s&quot; we sent a confirmation email. Please, open it and click on the link.","reviews_vote":"Thanks for your vote! New average rating is:","reviews_error":"Error saving your vote! Please, try again later.","error_like":"Error saving your like! Please, try again later.","error_global":"Global error text","name_empty":"The name can&#039;t be empty","name_long":"Too long name","email_empty":"Too short (or empty) email address","email_long":"Too long email address","email_not_valid":"Invalid email address","subject_empty":"The subject can&#039;t be empty","subject_long":"Too long subject","text_empty":"The message text can&#039;t be empty","text_long":"Too long message text","send_complete":"Send message complete!","send_error":"Transmit failed!","login_empty":"The Login field can&#039;t be empty","login_long":"Too long login field","login_success":"Login success! The page will be reloaded in 3 sec.","login_failed":"Login failed!","password_empty":"The password can&#039;t be empty and shorter then 4 characters","password_long":"Too long password","password_not_equal":"The passwords in both fields are not equal","registration_success":"Registration success! Please log in!","registration_failed":"Registration failed!","geocode_error":"Geocode was not successful for the following reason:","googlemap_not_avail":"Google map API not available!","editor_save_success":"Post content saved!","editor_save_error":"Error saving post data!","editor_delete_post":"You really want to delete the current post?","editor_delete_post_header":"Delete post","editor_delete_success":"Post deleted!","editor_delete_error":"Error deleting post!","editor_caption_cancel":"Cancel","editor_caption_close":"Close"},"ajax_url":"http:\/\/golfclub.themerex.net\/wp-admin\/admin-ajax.php","ajax_nonce":"3f6bff8001","use_ajax_views_counter":"","site_url":"http:\/\/golfclub.themerex.net","vc_edit_mode":"","theme_skin":"no_less","slider_height":"100","system_message":{"message":"","status":"","header":""},"user_logged_in":"","toc_menu":null,"toc_menu_home":"","toc_menu_top":"","menu_fixed":"","menu_mobile":"1024","menu_slider":"","menu_cache":"","demo_time":"0","media_elements_enabled":"1","ajax_search_enabled":"1","ajax_search_min_length":"3","ajax_search_delay":"200","css_animation":"1","menu_animation_in":"fadeInUp","menu_animation_out":"fadeOutDown","popup_engine":"magnific","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","contacts_maxlength":"1000","comments_maxlength":"1000","remember_visitors_settings":"","admin_mode":"","isotope_resize_delta":"0.3","error_message_box":null,"viewmore_busy":"","video_resize_inited":"","top_panel_height":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/core.init.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/js/theme.init.js'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/social/social-share.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/core.debug.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpgdprcData = {"ajaxURL":"http:\/\/golfclub.themerex.net\/wp-admin\/admin-ajax.php","ajaxSecurity":"a0d89eae8f","isMultisite":"","path":"\/","blogId":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/wp-gdpr-compliance/assets/js/front.min.js?ver=1595152704'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/core.messages/core.messages.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/trx_utils/shortcodes/theme.shortcodes.js'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/themes/n7-golf-club/fw/js/magnific/jquery.magnific-popup.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='http://golfclub.themerex.net/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.5.5'></script>
+			<script>
+			</script>
+			<style type="text/css">.trx_demo_inline_365078049{color:#ffffff !important;border-color:#ffaa5f !important;background-color:#ffaa5f !important;}.trx_demo_inline_1968215322:hover{color:#ffffff !important;border-color:#cc884c !important;background-color:#cc884c !important;}</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"68aba09c4e5ff15a","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2021.8.1","si":10}'></script>
+</body>
+</html>
