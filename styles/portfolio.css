@@ -1,0 +1,102 @@
+    body {
+        background-color: #c5c5c8;
+        height: 100%;
+    }
+    
+    .bg {
+        background-color: #E9ECEF;
+    }
+    
+    .menu-seperator {
+        margin-left: 10px;
+    }
+    
+    .img {
+        object-fit: cover;
+        width: 250px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-img-top {
+        margin-top: 20px;
+    }
+    
+    .divider {
+        background-color: #7a7a7a;
+        height: 2px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navbar-custom {
+        background-color: #f7b045;
+    }
+    /* change the brand and text color */
+    
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: rgba(255, 255, 255, .8);
+    }
+    /* change the link color */
+    
+    .navbar-custom .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, .5);
+    }
+    /* change the color of active or hovered links */
+    
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+        color: #ffffff;
+    }
+    
+    .card-image {
+        height: 200px;
+    }
+    
+    .btn-primary,
+    .btn-primary:active,
+    .btn-primary:visited,
+    .btn-primary:focus {
+        background-color: #f7b045;
+        border-color: #f5980d;
+    }
+    
+    .btn-primary:hover {
+        background-color: #f5980d;
+        border-color: #f5980d;
+    }
+    
+    .btn-width {
+        width: 100%;
+    }
+    
+    .me {
+        border-radius: 100%;
+        width: 60px;
+        height: 60px
+    }
+    
+    .timeline {
+        width: 350px;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 75px;
+        margin-top: 40px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .cv-height {
+        margin-bottom: -10px;
+    }
+    
+    .blog-text {
+        margin-left: 15px;
+    }
